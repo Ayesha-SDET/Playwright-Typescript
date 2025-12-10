@@ -1,17 +1,3 @@
-/*
-open app   -- beforeAll()
-
-login  -- beforeEach()
-    find products
-logout  -- afterEach()
-
-login
-    add product to cart
-logout
-
-close app  -- afterAll()
-
-*/
 
 import { test, expect, Page} from '@playwright/test';
 
@@ -33,8 +19,8 @@ test.afterAll('Closing App', async () => {
 test.beforeEach('Login', async()=>{
     
     await page.locator('#login2').click();
-    await page.locator('#loginusername').fill('pavanol');
-    await page.locator('#loginpassword').fill('test@123');
+    await page.locator('#loginusername').fill('ayesha786');
+    await page.locator('#loginpassword').fill('hep786');
     await page.locator("button[onclick='logIn()']").click();
     await page.waitForTimeout(2000);
 })
@@ -67,5 +53,6 @@ test.describe('mygroup',async()=>{
     });
 
 })
+
 
 
