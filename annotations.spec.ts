@@ -1,5 +1,4 @@
-/* annotations
------------------
+/* annotations is used to run test cases with following keywords for comprehensive testing
 only
 skip
 fail
@@ -52,3 +51,4 @@ test('test6', async ({ page }) => {
   await page.goto('https://www.google.com/');
   await expect(page).toHaveTitle('Google');
 });
+
