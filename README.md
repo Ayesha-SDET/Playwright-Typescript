@@ -1,9 +1,22 @@
-Ever wondered how Playwright tests stay clean and DRY?
-The answer: Hooks.
-Hooks let you define what happens before, after, or around every test.
-Here’s the magic combo I have tried :
+## Playwright Automation Framework (TypeScript)
 
-No more repeating setup in every test.
-Just clean, maintainable automation.
+### 🔹 Tech Stack
+- Playwright
+- TypeScript
+- Page Object Model
+- GitHub Actions (CI)
+- HTML & Allure Reports
 
-If you're not using hooks in your Playwright suite yet… you’re missing out 👀
+### 🔹 Features Automated
+- Login & Authentication
+- Form Validation
+- API Interception
+- Cross-browser Testing
+- Parallel Execution
+
+### 🔹 How to Run
+npm install
+npx playwright test
+
+### 🔹 Reports
+npx playwright show-report
