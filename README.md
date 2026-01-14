@@ -1,6 +1,6 @@
 ## Overview
 
-This repository showcases a **professional Playwright automation framework** built with **TypeScript** — designed to demonstrate real-world automation engineering skills.  
+This repository showcases a **Playwright automation framework** built with **TypeScript** — designed to demonstrate real-world automation engineering skills.  
 It highlights key automation concepts such as Page Object Model, CI integration with GitHub Actions, and ** HTML test reporting** 
 
 ---
@@ -26,30 +26,53 @@ It highlights key automation concepts such as Page Object Model, CI integration 
 │   └── workflows/
 │       └── playwright.yml        # GitHub Actions CI pipeline
 │
-
-├── reports/                       # HTML / screenshots
-├── testdata/                       # HTML / screenshots
-    └── loginData.js
-
+│
 ├── pages/                         # Page Object Model classes
-│   ├── LoginPage.ts
+│   └── LoginPage.ts
 │   └── HomePage.ts
-    └── LogoutPage.ts
+│   └── LogoutPage.ts
+│
+├── reports/                       # HTML / screenshots
+│
+├── testdata/                       # test data
+│    └── loginData.js
 │
 ├── tests/                         # Test specifications
-│   ├── Login.spec.ts
+│   └── Login.spec.ts
 │   └── LoginDataDriven.spec.ts
 │
-├── utils/                         # Reusable utilities & test data
+├── utils/                         # Reusable utilities 
 │   └── randomDataGenerator.js
-    └── dataProvider.ts
+│   └── dataProvider.ts
 │
 ├── playwright.config.ts           # Playwright configuration
-├── package.json                   # Project dependencies & scripts
+├── package.json                   # Project dependencies 
 ├── test.config.ts                  # TypeScript configuration
-
 
 ```
 
+##  Running the Tests
+
+### Run Locally
+
+```bash
+npm install
+npx playwright install
+npx playwright test
+```
+
+### View HTML Report
+
+```bash
+npx playwright show-report
+```
+
+### CI Execution
+
+* Tests run automatically via **GitHub Actions**
+* Triggered on push / pull requests
+* Results available in the **Actions** tab
+
+---
 
 
