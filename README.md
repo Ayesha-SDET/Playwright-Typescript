@@ -1,22 +1,49 @@
-## Playwright Automation Framework (TypeScript)
+## Overview
 
-### 🔹 Tech Stack
-- Playwright
-- TypeScript
-- Page Object Model
-- GitHub Actions (CI)
-- HTML & Allure Reports
+This repository showcases a **professional Playwright automation framework** built with **TypeScript** — designed to demonstrate real-world automation engineering skills.  
+It highlights key automation concepts such as Page Object Model, CI integration with GitHub Actions, and ** HTML test reporting** 
 
-### 🔹 Features Automated
-- Login & Authentication
-- Form Validation
-- API Interception
-- Cross-browser Testing
-- Parallel Execution
+---
 
-### 🔹 How to Run
-npm install
-npx playwright test
+## 🛠️ Tech Stack
 
-### 🔹 Reports
-npx playwright show-report
+| Technology | Purpose |
+|------------|---------|
+| 🧪 Playwright + TypeScript | Automated web UI testing |
+| 📐 Page Object Model (POM) | Framework design for maintainability |
+| ⚙️ GitHub Actions | CI/CD test automation |
+| 📊 HTML Reporter | Detailed execution reports |
+| 🎯 npm | Dependency management |
+
+---
+
+## 📁 Project Structure
+
+
+```
+
+├── .github/
+│   └── workflows/
+│       └── playwright.yml        # GitHub Actions CI pipeline
+│
+├── pages/                         # Page Object Model classes
+│   ├── LoginPage.ts
+│   └── HomePage.ts
+    └── LogoutPage.ts
+│
+├── tests/                         # Test specifications
+│   ├── Login.spec.ts
+│   └── LoginDataDriven.spec.ts
+│
+├── utils/                         # Reusable utilities & test data
+│   └── loginData.js
+│
+├── playwright.config.ts           # Playwright configuration
+├── package.json                   # Project dependencies & scripts
+├── test.config.ts                  # TypeScript configuration
+
+
+```
+
+
+
