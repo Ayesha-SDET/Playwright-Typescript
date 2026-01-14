@@ -26,6 +26,11 @@ It highlights key automation concepts such as Page Object Model, CI integration 
 │   └── workflows/
 │       └── playwright.yml        # GitHub Actions CI pipeline
 │
+
+├── reports/                       # HTML / screenshots
+├── testdata/                       # HTML / screenshots
+    └── loginData.js
+
 ├── pages/                         # Page Object Model classes
 │   ├── LoginPage.ts
 │   └── HomePage.ts
@@ -36,7 +41,8 @@ It highlights key automation concepts such as Page Object Model, CI integration 
 │   └── LoginDataDriven.spec.ts
 │
 ├── utils/                         # Reusable utilities & test data
-│   └── loginData.js
+│   └── randomDataGenerator.js
+    └── dataProvider.ts
 │
 ├── playwright.config.ts           # Playwright configuration
 ├── package.json                   # Project dependencies & scripts
