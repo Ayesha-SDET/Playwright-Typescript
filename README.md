@@ -1,7 +1,6 @@
 ## Overview
 
-This repository showcases a **Playwright automation framework** built with **TypeScript** — designed to demonstrate real-world automation engineering skills.  
-It highlights key automation concepts such as Page Object Model, CI integration with GitHub Actions, and ** HTML test reporting** 
+This repository showcases a **Playwright automation framework** built with **TypeScript** — designed to demonstrate real-world automation engineering skills. It highlights key automation concepts such as Page Object Model, CI integration with GitHub Actions, and ** HTML test reporting** 
 
 ---
 
@@ -53,7 +52,6 @@ It highlights key automation concepts such as Page Object Model, CI integration 
 
 ##  Running the Tests
 
-### Run Locally
 
 ```bash
 npm install
