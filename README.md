@@ -4,15 +4,15 @@ This repository showcases a **Playwright automation framework** built with **Typ
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
-| 🧪 Playwright + TypeScript | Automated web UI testing |
-| 📐 Page Object Model (POM) | Framework design for maintainability |
-| ⚙️ GitHub Actions | CI/CD test automation |
-| 📊 HTML Reporter | Detailed execution reports |
-| 🎯 npm | Dependency management |
+| Playwright + TypeScript | Automated web UI testing |
+| Page Object Model (POM) | Framework design for maintainability |
+| GitHub Actions | CI/CD test automation |
+| HTML Reporter | Detailed execution reports |
+| npm | Dependency management |
 
 ---
 
